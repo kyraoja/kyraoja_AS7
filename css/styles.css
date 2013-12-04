@@ -1,0 +1,193 @@
+
+/*global*/
+
+body {
+font-family: 'Noto Sans', sans-serif;
+font-weight: 100;
+font-size: 1.125em;
+background: url(../img/binding_light.png) repeat;
+}
+
+a {
+text-decoration: none;
+}
+
+img, object {
+max-width: 100%;
+}
+
+ul{
+text-decoration:none;
+}
+
+/*typography*/
+
+p{
+font-size: .75em;
+margin: 5px;
+}
+
+h1 {
+font-size: 3em;
+font-weight: 100%;
+float: right;
+margin-top: 100px;
+}
+
+h2 {
+font-weight: 100%;
+font-size: 1.500em;
+}
+
+h3 {
+font-weight: 100%;
+font-size: 1.125em;
+}
+
+nav{
+	background:navy;
+	height: 64%;
+	left: 0;
+	top: 42px;
+	width: 100%;
+	font-size: 1em;
+}
+
+nav a:hover, 
+nav a:active {
+	margin-top: 10px;
+}
+
+li{
+list-style:none;
+text-align:center;
+display: inline;
+margin: 0 40px 0px 50px;
+}
+
+/*navigation*/
+
+#nav ul {
+width: 100%;
+list-style: none;
+float: right;
+}
+
+#nav ul li {
+float: left;
+}
+
+#nav ul li a {
+display: block;
+text-decoration: none;
+}
+
+/*content*/
+
+
+img{
+height:auto;
+width: 100%;
+padding: 25px 10px 25px 0px;
+}
+
+footer{
+font-size: 0.625em;
+padding: 25px 0px 20px 0px;
+text-align:center;
+}
+
+#rival{
+clear:left;
+}
+
+#russell{
+
+width: 90%;
+margin-top: 0.625em;
+padding: 0 15% 0 0;
+}
+
+#qb{
+margin-left: 0;
+padding: 0px 0px 15px 0px;
+}
+
+#id{
+height:auto;
+width: 100%;
+}
+
+#who{
+padding: 30px 0px 0px 10px;
+}
+
+#who2{
+padding: 0px 0px 0px 10px;
+}
+
+
+/* ALL LINKS */
+
+a{
+	color: #fff;
+	font-size: 1em;
+}
+
+
+/*media queries*/
+@media screen and ( max-width: 1024px ) {
+
+	
+	h1 {
+		font-size: 2.5em;
+		font-weight: 100%;
+		float: right;
+		margin: 70px 0 0 40px;
+		}
+		
+		
+	
+} /* END OF DESKTOP */
+
+
+
+/* TABLET */
+
+@media screen and ( max-width: 768px ) {
+
+	
+	h1 {
+		margin: 0;
+		float: none;
+		text-align: center;
+		
+	}
+	
+	#nav ul li {
+		float: none;
+		}
+	
+} /* END OF TABLET */
+
+
+
+/* PHONE */
+
+@media screen and ( max-width: 480px ) {
+	
+	
+	h1 {
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+	
+	#nav ul li {
+		float: none;
+		}
+	
+
+	
+	
+} /* END OF PHONE */
